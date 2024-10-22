@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elecciones>
+    <!-- Información general -->
+    <informacion fecha="2024-10-14" numero_colegios="2" posibles_votantes="800"/>
+    
+    <!-- Primer colegio  -->
+    <colegio nombre="Colegio Central" numero_mesas="2" votantes_por_mesa="400">
+        <!-- Mesa 1 del Colegio Central -->
+        <mesa numero="1">
+            <presidente>Juan Pérez</presidente>
+            <vocal1>María López</vocal1>
+            <vocal2>Carlos Fernández</vocal2>
+        </mesa>
+        <!-- Mesa 2 del Colegio central -->
+        <mesa numero="2">
+            <presidente>Ana García</presidente>
+            <vocal1>David Jiménez</vocal1>
+            <vocal2>Lucía Martín</vocal2>
+        </mesa>
+        <!-- Mesa 3 del colegio central-->
+        <mesa numero="3">
+        <peresidente>Manolo Lama </presidente>
+        <vocal1> Fermin trujillo </presidente>
+        <vocal2> Diego montes </vocal2>
+        <!-- Mesa 4 del colegio central-->
+        <mesa numer="4">
+        <presidente>Antolin Lopez </presidente>
+        <vocal1>Antonio Recio </vocal1>
+        <vocal2>Amador Rivas </vocal2>
+
+    </colegio>
+    
+    <!-- Segundo colegio -->
+    <colegio nombre="Colegio Norte" numero_mesas="2" votantes_por_mesa="350">
+        <!-- Mesa 1 del Colegio Norte -->
+        <mesa numero="1">
+            <presidente>Pedro Romero</presidente>
+            <vocal1>Beatriz Sánchez</vocal1>
+            <vocal2>Javier Gómez</vocal2>
+        </mesa>
+        <!-- Mesa 2 del Colegio Norte -->
+        <mesa numero="2">
+            <presidente>Elena Torres</presidente>
+            <vocal1>Alejandro Navarro</vocal1>
+            <vocal2>Marta Ruiz</vocal2>
+        </mesa>
+    </colegio>
+</elecciones>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobiliario>
+    <!-- Mesas -->
+    <mesa id="1">
+        <dimensiones largo="120" ancho="60" alto="75"/>
+        <stock>10</stock>
+    </mesa>
+    <mesa id="2">
+        <dimensiones largo="150" ancho="80" alto="75"/>
+        <stock>5</stock>
+    </mesa>
+    <mesa id="3">
+        <dimensiones largo="180" ancho="90" alto="75"/>
+        <stock>3</stock>
+    </mesa>
+    <mesa id="4">
+        <dimensiones largo="200" ancho="100" alto="75"/>
+        <stock>8</stock>
+    </mesa>
+    <mesa id="5">
+        <dimensiones largo="140" ancho="70" alto="75"/>
+        <stock>7</stock>
+    </mesa>
+
+    <!-- Sillas -->
+    <silla id="1">
+        <dimensiones largo="40" ancho="40" alto="90"/>
+        <stock>15</stock>
+    </silla>
+    <silla id="2">
+        <dimensiones largo="45" ancho="45" alto="95"/>
+        <stock>12</stock>
+    </silla>
+
+    <!-- Armarios -->
+    <armario id="1">
+        <dimensiones largo="120" ancho="60" alto="200"/>
+        <stock>4</stock>
+    </armario>
+    <armario id="2">
+        <dimensiones largo="150" ancho="70" alto="220"/>
+        <stock>2</stock>
+    </armario>
+    <armario id="3">
+        <dimensiones largo="100" ancho="50" alto="180"/>
+        <stock>6</stock>
+    </armario>
+
+    <!-- Camas -->
+    <cama id="1">
+        <dimensiones largo="200" ancho="150" alto="50"/>
+        <stock>3</stock>
+    </cama>
+    <cama id="2">
+        <dimensiones largo="190" ancho="140" alto="50"/>
+        <stock>2</stock>
+    </cama>
+</mobiliario>

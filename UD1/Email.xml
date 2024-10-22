@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<! DOCTYPE e-mail>
+<emails>
+    <email id="01">
+        <fecha>31 de Octubre de 2024</fecha>
+        <remitente>
+            <nombre>Pedro Picapiedra</nombre>
+            <direccion>pedro.picapiedra@gmail.com</direccion>
+        </remitente>
+        <destinatarios>
+            <para>
+                <destinatario>
+                    <nombre>Pablo Mármol</nombre>
+                    <direccion>pablo.marmol@hotmail.com</direccion>
+                </destinatario>
+            </para>
+            <cc>
+                <destinatario>
+                    <nombre>Vilma Picapiedra</nombre>
+                    <direccion>vpicapiedra@gmail.com</direccion>
+                </destinatario>
+                <destinatario>
+                    <nombre>Pebbles Picapiedra</nombre>
+                    <direccion>pebbles.picapiedra@hotmail.com</direccion>
+                </destinatario>
+            </cc>
+            <cco>
+                <destinatario>
+                    <nombre>Bamm Bamm Mármol</nombre>
+                    <direccion>bbmarmol@gmail.com</direccion>
+                </destinatario>
+            </cco>
+        </destinatarios>
+        <asunto>Noche terrorífica - ¿Te atreves a venir?</asunto>
+        <mensaje>
+            Te espera una noche de muerte.
+            Prepárate para una noche aterradora de diversión.
+
+            Fecha: 31 de Octubre de 2024
+            Hora: 20:30
+            Lugar: Calle principal de Rocadormitorio.
+
+            Te animamos a disfrazarte con tus mejores galas y ganar alguno de nuestros mejores premios.
+            No querrás perdértelo, anótalo en la agenda ahora mismo y celebremos Halloween juntos.
+        </mensaje>
+    </email>
+</emails>

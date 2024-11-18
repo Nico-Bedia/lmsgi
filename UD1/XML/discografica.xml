@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE discografica>
+<discografica>
+    <grupos>
+    <!--grupo 1-->
+        <grupo id="1">
+            <nombre>Metalica</nombre>
+            <estilo>Trash Metal</estilo>
+            <componentes>
+            <Integrantes id="1" James Hetfield (cantante y guitarra)></Integrantes>
+            <Integrantes id="2" Lars Ulrich (Bateria)></Integrantes>
+            <Integrantes id="3" Robert trujillo (bajo)></Integrantes>
+            <Integrantes id="4" Kirk Hammet (guitarra)></Integrantes>
+            </componentes>
+            <Disco>Kill'Em All</Disco> <anio>1983</anio></Disco>
+            <Disco>Ride The Lightning</Disco> <anio>1984</anio></Disco>
+            <Disco>Master of pupets</Disco> <anio>1986</anio></Disco>
+            <Disco>Metallica</Disco> <anio>1986</anio></Disco>
+            </grupo>
+    <!--grupo 2-->
+        <grupo id="2">
+        <nombre>Pearl Jam</nombre>
+        <estilo>Rock & Roll</estilo>
+        <componentes>
+        <Integrantes id="1" Mike McCready (guitarra)></Integrantes>
+        <Integrantes id="2" Stone Gossard (guitarra)></Integrantes>
+        <Integrantes id="3" Jef Ament (bajo)></Integrantes>
+        <Integrantes id="4" Matt cameron (Bateria)></Integrantes>
+        <Integrantes id="5" Kenneth Gaspar (teclado)></Integrantes>
+        </componentes>
+        <Disco>Ten</Disco><anio>1991</anio>
+         <Disco>Vitalogy</Disco><anio>1994</anio>
+    </grupos>
+</discografica>
+
+
+        
+
+
+
+
+        
+

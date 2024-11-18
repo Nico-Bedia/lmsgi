@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMIDA>
+<!-- menu -->
+<platos>
+    <Plato id="1">
+    <nombre>Pasta con pollo</nombre>
+    <descripcion> Pasta con tomate frito y con pollo rebozado </descripcion>
+    <categoria>entrante</entrante>
+    <precio>15$</precio>
+    </plato>
+    <Plato id="2">
+    <carne>chuleton a la brasa</carne>
+    <descripcion>chuleton a la brasa con patatas y piminetos</descripcion>
+    <precio>25$<precio>
+    </plato>
+    <plato id="3">
+    <pescado>merluza</pescado>
+    <descripcion>merluza al horno</descripcion>
+    <plato id="4">
+    <nombre>tiramisu</nombre>
+    <descripcion>postre italiano </descripcion>
+    <precio>8$</precio>
+</platos>
+

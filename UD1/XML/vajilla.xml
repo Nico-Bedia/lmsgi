@@ -1,0 +1,35 @@
+<?xml=version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vajilla>
+    <!-- platos -->
+    <platos id="1">
+    <modelo> </modelo>
+    <tipo plato="hondo"></tipo>
+    <tipo plato="llano"></tipo>
+    <tipo plato="postre"></tipo>
+    <diametro> </diametro>
+    <stock> </stock>
+    </platos>
+
+    <!-- cristaleria -->
+    <vasos id="2">
+    <modelo> </modelo>
+    <tipo vaso="vaso agua"></tipo>
+    <tipo vaso="copa agua"></tipo>
+    <tipo vaso="copa vino"></tipo>
+    <tipo vaso="copa champan"></tipo>
+    <tipo vaso="vaso largo"></tipo>
+    <capacidad> </capacidad>
+    <stock> </stock>
+    </vasos>
+
+    <!-- cubiertos -->
+    <cubiertos id="3">
+    <modelo> </modelo>
+    <tipo cubiertos="cuchara sopera"></tipo>
+    <tipo cubiertos="cuchara postre"></tipo>
+    <tipo cubiertos="tenedor de carne"></tipo>
+    <tipo cubiertos="tenedor de pescado"></tipo>
+    <stock> </stock>
+    </cubiertos>
+
+  

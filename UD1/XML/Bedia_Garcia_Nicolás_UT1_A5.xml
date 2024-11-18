@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Biblioteca>
+    <Libro ISBN="001-25/98">
+        <Titulo>El ocho</Titulo>
+        <Autor>Katherine Neville</Autor>
+        <Editorial>Plaza & Janes</Editorial>
+        <NumPaginas>300</NumPaginas>
+        <CopiasDisponibles>5</CopiasDisponibles>
+    </Libro>
+
+    <Libro ISBN="018-59/01">
+        <Titulo>El nueve</Titulo>
+        <Autores>
+            <Autor>Stephen King</Autor>
+            <Autor>Tu Nombre</Autor>
+        </Autores>
+        <Editorial>Plaza & Janes</Editorial>
+        <NumPaginas>450</NumPaginas>
+        <CopiasDisponibles>10</CopiasDisponibles>
+    </Libro>
+</Biblioteca>

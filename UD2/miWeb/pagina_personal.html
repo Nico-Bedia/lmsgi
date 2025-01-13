@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal niicobgg</title>
+    <link rel="stylesheet" href="sytels.css">
+</head>
+<body>
+    <!-- Header con Menú y Dark Mode -->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#cv">Descargar CV</a></li>
+                <li><a href="#video">Mi inspiración a estudiar informatica</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button id="dark-mode-toggle">Dark Mode</button>
+        </nav>
+    </header>
+ 
+    <!-- Main -->
+    <main>
+        <!-- Descripción Personal -->
+        <section id="about" class="section">
+            <h1>¡Muy buenas, soy nico! ¿Quieres conocerme y ver mis que estudios y trabajaos he realizado?</h1>
+            <p>Soy Nico estudiante de ASIR. Tengos graduado de la ESO, graduado en SMR en el centro lopez Vicuña, tengo bastantes poryectos en desarollo a punto de ser lanzados</p>
+            <img src="../img/panteraaa.jpg" alt="Foto personal" class="profile-pic">
+        </section>
+ 
+        <!-- Video Inspirador -->
+        <section id="video" class="section">
+            <h2>Un referente que me inspiró a estudair informatica y sobre todo interesarme por estudair ciberseguirdad</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+ 
+    <!-- Footer -->
+    <footer>
+        <!-- Formulario de Contacto -->
+        <div id="contacto">
+            <h3>¡Contáctame!</h3>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+ 
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+ 
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+ 
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+ 
+        <!-- Redes Sociales -->
+        <div class="social-links">
+            <h3>Mis Redes Sociales</h3>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://github.com" target="_blank">GitHub</a> |
+            <a href="https://twitter.com" target="_blank">X</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+ 
+    <!-- Script para Dark Mode -->
+    <script>
+        const toggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+        toggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Nicolás Bedia García. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+

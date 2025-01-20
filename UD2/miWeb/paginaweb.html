@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <button class="dark-mode-toggle">Modo Oscuro</button>
+    </header>
+
+    <main>
+        <section class="bienvenida">
+            <h1>¡Bienvenido a mi página web!</h1>
+            <p>Descubre más sobre mi trabajo y cómo puedo ayudarte.</p>
+            <button class="descargar-cv">Descargar mi CV</button>
+        </section>
+
+        <section class="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="foto.jpg" alt="Mi foto informal">
+            <p>¡Hola! Soy un profesional con muchas ganas de seguir aprendiendo y creciendo. ¡Mira lo que hago y cómo puedo ayudarte!</p>
+        </section>
+
+        <section class="video-referente">
+            <h2>Mi referente</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ejemplo" title="Video de referente"></iframe>
+        </section>
+
+        <section class="habilidades">
+            <h2>Mis habilidades</h2>
+            <div class="habilidad" id="lenguajes">
+                <h3>Lenguajes de programación</h3>
+                <p>JavaScript, Python, HTML, CSS</p>
+            </div>
+            <div class="habilidad" id="software">
+                <h3>Software</h3>
+                <p>VS Code, Git, Docker, Node.js</p>
+            </div>
+            <div class="habilidad" id="admin-sistemas">
+                <h3>Administración de sistemas</h3>
+                <p>Linux, Apache, Nginx</p>
+            </div>
+            <div class="habilidad" id="habilidades-sociales">
+                <h3>Habilidades sociales</h3>
+                <p>Trabajo en equipo, resolución de problemas</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contacto">
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellido" required>
+                <input type="email" placeholder="Correo" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://github.com">GitHub</a>
+            <a href="https://twitter.com">X</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

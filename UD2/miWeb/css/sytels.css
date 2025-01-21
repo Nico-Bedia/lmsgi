@@ -1,58 +1,105 @@
-/* Estilo base */
+:root {
+    --fondo-claro: #ffffff;
+    --texto-claro: #000000;
+    --fondo-oscuro: #121212;
+    --texto-oscuro: #ffffff;
+    --destacado: #007BFF;
+    --menu-hover: #0056b3;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a.active {
-    font-weight: bold;
+    background-color: var(--fondo-claro);
+    color: var(--texto-claro);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .dark-mode {
-    background-color: #333;
-    color: white;
+    background-color: var(--fondo-oscuro);
+    color: var(--texto-oscuro);
 }
+
+
+header {
+    background-color: var(--destacado);
+    color: var(--fondo-claro);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--menu-hover);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a.active {
+    background-color: var(--destacado);
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #003366;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--destacado);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 
 footer {
-    background-color: #4CAF50;
+    background-color: #333;
     color: white;
-    padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 20px;
 }
 
-footer .contacto form input, footer .contacto form textarea {
+footer form {
+    flex: 1;
+    min-width: 300px;
+}
+
+footer form label,
+footer form input,
+footer form textarea {
+    display: block;
     margin-bottom: 10px;
+}
+
+footer form input, footer form textarea {
     padding: 10px;
     width: 100%;
 }
 
-footer .contacto form button {
+footer form button {
     padding: 10px;
     background-color: #333;
     color: white;
@@ -60,8 +107,13 @@ footer .contacto form button {
     cursor: pointer;
 }
 
-footer .contacto form button:hover {
+footer form button:hover {
     background-color: #555;
+}
+
+footer .social {
+    flex: 1;
+    text-align: center;
 }
 
 footer .redes-sociales a {
@@ -74,31 +126,21 @@ footer .redes-sociales a:hover {
     text-decoration: underline;
 }
 
-.bienvenida, .sobre-mi, .video-referente, .habilidades, .portfolio-proyectos, .formulario {
+
+.tile, .habilidad {
+    display: inline-block;
     padding: 20px;
-}
-
-.habilidad {
-    margin-bottom: 20px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-/* Animación para las tiles */
-.habilidad {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
     transition: transform 0.3s;
 }
 
-.habilidad:hover {
-    transform: scale(1.05);
+.tile:hover, .habilidad:hover {
+    transform: scale(1.1);
+}
+
+main {padding: 20px;
+
 }

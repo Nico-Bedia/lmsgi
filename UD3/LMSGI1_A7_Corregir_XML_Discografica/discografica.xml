@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE discografica>
+<_discografica>
+    <grupos>
+        <grupo nombre="Metallica" estilo="Trash Metal">
+            <componentes />
+                <componente instrumento="Voz" instrumento="Guitarra">James Hetfield</componente>
+                <componente instrumento="Bateria">Lars Ulrich</componente>
+                <componente instrumento="Bajo">Robert Trujillo</componente>
+                <componente instrumento="Guitarra">Kirk Hammett</componente>
+            </componente>
+            <discos>
+                <disco de estudio orden="1">Kill'Em All</disco>
+                <disco de estudio orden="2">Ride The Lightning</disco>
+                <disco de estudio orden="3">Master of Puppets</disco>
+                <disco de estudio orden="4">...And Justice For All</disco>
+                <disco de estudio orden="5">Metallica</disco>
+            </discos>
+        </grupo>
+        <grupo nombre="Pearl Jam" estilo="RocK&Roll">
+            <componentes />
+                <componente instrumento="Voz">Eddie Vedder</componente>
+                <componente instrumento="Guitarra">Mike McCready</componente>
+                <componente instrumento="Guitarra">Stone Gossard</componente>
+                <componente instrumento="Bajo">Jeff Ament</componente>
+                <componente instrumento="Bateria">Matt Cameron</componente>
+                <componente instrumento="Teclado">Kenneth Gaspar</componente>
+            </componente>
+            <discos>
+                <disco de estudio orden="1">Ten</disco>
+                <disco de estudio orden="2">Vs.</disco>
+                <disco de estudio orden="3">Vitalogy</disco>
+            </discos>
+        </grupo>
+        <grupo nombre="O'funk'illo" estilo="Funk Rock">
+            <componentes />
+                <componente instrumento="Voz">Andreas Lutz</componente>
+                <componente instrumento="Bajo">Pepe Bao </componente>
+                <componente instrumento="Guitarra">Javi Lynch Marssiano</componente>
+            </componente>
+            <discos>
+                <disco de estudio orden="1">O'Funk'illo</disco>
+                <disco de estudio orden="2">En el Planeta Aseituna</disco>
+                <disco de estudio orden="3">No te cabe na'</disco>
+                <disco de estudio orden="4">Sesión Golfa</disco>
+                <disco de estudio orden="5">5mentario</disco>
+            </discos>
+        </grupo>
+    </grupos>
+    <empleados>Implementacion pendiente</empleados>
+</_discografica>

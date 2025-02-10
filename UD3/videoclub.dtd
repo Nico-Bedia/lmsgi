@@ -1,0 +1,20 @@
+<!ELEMENT videoclub (peliculas, videojuegos, comidas)>
+    <!ELEMENT peliculas (pelicula+)>
+        <!ELEMENT pelicula EMPTY>
+
+    <!ELEMENT videojuegos (videojuegos+)>
+        <!ELEMENT videojuego (generos, plataformas)>
+            <!ELEMENT generos (genero+)>
+                <!ELEMENT genero EMPTY>
+        <!ELEMENT plataforma EMPTY>
+        <!ELEMENT plataformas (plataforma+)>
+            <!ELEMENT plataforma EMPTY>
+
+    <!ELEMENT comidas (comida+)>
+        <!ELEMENT comida EMPTY>
+
+
+<!ATTLIST videojuego nombre CDATA #REQUIRED
+    distribuidor CDATA #REQUIRED
+    anio CDATA #REQUIRED>
+    

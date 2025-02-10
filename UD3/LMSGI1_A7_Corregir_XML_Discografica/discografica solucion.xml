@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE discografica SYSTEM "./Discografia.dtd">
+<discografica>
+    <grupos>
+        <grupo nombre="Metallica" estilo="Trash Metal">
+            <!-- 1. No se puede usar una etiqueta vacia en este punto -->
+            <componentes>
+                <!-- 2. No puede haber dos atributos con el mismo nombre -->
+                <componente instrumento="Voz y Guitarra">James Hetfield</componente>
+                <componente instrumento="Bateria">Lars Ulrich</componente>
+                <componente instrumento="Bajo">Robert Trujillo</componente>
+                <componente instrumento="Guitarra">Kirk Hammett</componente>
+            </componentes>
+            <discos>
+                <!-- 3. No se pueden poner espacios en blanco en el nombre de los elementos -->
+                <disco orden="1">Kill'Em All</disco>
+                <disco orden="2">Ride The Lightning</disco>
+                <disco orden="3">Master of Puppets</disco>
+                <disco orden="4">...And Justice For All</disco>
+                <disco orden="5">Metallica</disco>
+            </discos>
+        </grupo>
+        <!-- 4. No esta permitido el uso del caracter & en ninguna parte del documento que no sea un comentario -->
+        <grupo nombre="Pearl Jam" estilo="RocK &amp; Roll">
+            <discos>
+                <disco orden="1">Ten</disco>
+                <disco orden="2">Vs.</disco>
+                <disco orden="3">Vitalogy</disco>
+            </discos>
+            <componentes>
+                <componente instrumento="Voz">Eddie Vedder</componente>
+                <componente instrumento="Guitarra">Mike McCready</componente>
+                <componente instrumento="Guitarra">Stone Gossard</componente>
+                <componente instrumento="Bajo">Jeff Ament</componente>
+                <componente instrumento="Bateria">Matt Cameron</componente>
+                <componente instrumento="Teclado">Kenneth Gaspar</componente>
+            <!-- 5. Falta una 's' en la etiqueta de cierre -->
+            </componentes>
+        </grupo>
+        <grupo nombre="O'funk'illo" estilo="Funk Rock">
+            <componentes>
+                <componente instrumento="Voz">Andreas Lutz</componente>
+                <componente instrumento="Bajo">Pepe Bao </componente>
+                <componente instrumento="Guitarra">Javi Lynch Marssiano</componente>
+            </componentes>
+            <discos>
+                <disco orden="1">O'Funk'illo</disco>
+                <disco orden="2">En el Planeta Aseituna</disco>
+                <disco orden="3">No te cabe na'</disco>
+                <disco orden="4">Sesión Golfa</disco>
+                <disco orden="5">5mentario</disco>
+            </discos>
+        </grupo>
+    </grupos>
+    <empleados>Implementacion pendiente</empleados>
+</discografica>

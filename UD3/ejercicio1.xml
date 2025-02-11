@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coleccion
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ejercicio1.xsd">
+	<objeto>
+		<nombre>Moneda</nombre>
+		<numero>7486</numero>
+		<fecha>1942-04-25</fecha>
+	</objeto>
+	<objeto>
+		<nombre>Revista</nombre>
+		<numero>1235</numero>
+		<fecha>1958-06-30</fecha>
+	</objeto>
+</coleccion>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<galeria 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
+	<cuadro>
+		<titulo>La Nueva Gioconda</titulo>
+		<autor>Desconocido</autor>
+		<referencia>1223</referencia>
+	</cuadro>
+	<cuadro>
+		<titulo>El Gernica</titulo>
+		<autor>Pablo Picaso</autor>
+		<referencia>1225</referencia>	
+	</cuadro>
+</galeria>

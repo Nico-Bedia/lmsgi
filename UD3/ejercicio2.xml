@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ejercicio2.xsd">
+	<libro>
+		<titulo>Java 7</titulo>
+		<isbn>978-8441529878</isbn>
+		<autores>
+			<autor>F. Javier Moldes</autor>
+		</autores>
+		<paginas>416</paginas>
+		<editorial>Anaya Multimedia</editorial>
+	</libro>
+	<libro>
+		<titulo>Java 7 (Guias Practicas Usuarios)</titulo>
+		<isbn>978-8441529885</isbn>
+		<autores>
+			<autor>Roberto Montero Miguel</autor>
+		</autores>
+		<paginas>320</paginas>
+		<editorial>Anaya Editorial</editorial>
+	</libro>
+</catalogo>
+		

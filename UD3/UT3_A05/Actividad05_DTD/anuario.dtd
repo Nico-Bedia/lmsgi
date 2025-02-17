@@ -1,5 +1,4 @@
-<!DOCTYPE anuario 
-<!ELEMENT anuario (articulo+)>
+ <!ELEMENT anuario (articulo+)>
     <!ATTLIST anuario año CDATA #REQUIRED>
 
         <!ELEMENT articulo (titulo, fecha, numLectores, autores)>
@@ -13,4 +12,3 @@
          <!ELEMENT autor (EMPTY)>
      <!ATTLIST autor nombre CDATA #REQUIRED>
   <!ATTLIST autor mail CDATA #REQUIRED>
->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE anuario SYSTEM "UT3_A05.1.dtd">
+<anuario año="2018">
+    <articulo identificador="A-6785">        
+        <titulo>Microsoft quiere comerse a Slack</titulo>
+        <fecha>2018-01-10</fecha>
+        <numLectores>25000</numLectores>
+        <autores>
+            <autor nombre="Pedro Picapiedra" mail="jimenez@aruario.es"/>
+            <autor nombre="Alonso Pérez" mail="rosamar@exterior.es"/>
+        </autores>        
+    </articulo>
+    <articulo identificador="C-0780">        
+        <titulo>Regalos para padres techies</titulo>
+        <fecha>2018-01-20</fecha>
+        <numLectores>25000</numLectores>
+        <autores>
+            <autor nombre="Pedro Picapiedra" mail="jimenez@aruario.es"/>
+            <autor nombre="Alonso Pérez" mail="rosamar@exterior.es"/>
+        </autores>        
+    </articulo>
+</anuario>

@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="personajes">
+<xs:complexType>
+    <xs:sequence>
+            <xs:element name="personaje" maxOccurs="unbounded">
+            <xs:complexType>
+            <xs:sequence>
+            <xs:element name="caracteristicas_fisicas" type="xs:string"/>
+    <xs:element name="planeta" type="xs:string"/>
+</xs:sequence>
+                <xs:attribute name="id" type="xs:string" use="required"/>
+                <xs:attribute name="nombre" type="xs:string" use="required"/>
+                <xs:attribute name="anno_nacimiento" type="xs:string" use="required"/>
+                <xs:attribute name="genero" type="xs:string" use="required"/>
+             </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

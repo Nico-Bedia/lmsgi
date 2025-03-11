@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<empleados>
+    <empleado>
+        <nombre>John Doe</nombre>
+        <salario>5000</salario>
+    </empleado>
+    <empleado>
+        <nombre>Jane Smith</nombre>
+        <salario>7000</salario>
+    </empleado>
+    <empleado>
+        <nombre>Mike Johnson</nombre>
+        <salario>4000</salario>
+    </empleado>
+</empleados>

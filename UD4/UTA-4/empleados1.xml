@@ -1,16 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="./UT4-A1-v2-empleados_apply.xsl"?>
-<empleados>
-    <empleado>
-        <nombre>John Doe</nombre>
-        <salario>5000</salario>
-    </empleado>
-    <empleado>
-        <nombre>Jane Smith</nombre>
-        <salario>7000</salario>
-    </empleado>
-    <empleado>
-        <nombre>Mike Johnson</nombre>
-        <salario>4000</salario>
-    </empleado>
-</empleados>
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- definimos el espacio de nombres de XSLT -->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    
+    <!-- Definimos la salida como HTML -->    
+    <xsl:output method="html" indent="yes" />
+    
+    <!-- Definimos los nodos que sufrirán la transformación, en este caso todo el documento -->
+    <xsl:template match="/">
+        <!-- Construimos el HTML -->
+        <html lang="es">
+            <head>
+				<meta charset="UTF-8" />
+                <title>Lista empleados</title>
+                <style>
+                    h1 {
+                        color: #3a3a;
+                        font-family: Verdana, sans-serif;
+                    }
+                    p {
+                        color: #666;
+                        font-family: Arial, sans-serif;
+                    }
+                </style>
+			</head>
+            <body>
+                <h1>Lista de empleados</h1>
+                <ul>
+
+                    <!-- Recorremos los nodos <alumno> del fichero xml -->
+					<xsl:for-each select="//empleado">
+                        <!-- Ordenamos por el subelemento salario -->
+                        <xsl:sort select="salario" data-type="number" order="descending" />
+						<li>
+                            <!-- Seleccionamos los subelementos que pretendemos mostrar -->
+                            <p>
+                                <strong>Nombre: </strong><xsl:value-of select="nombre" /><br />
+                                <strong>Salario: </strong><xsl:value-of select="salario" />
+                            </p>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </body>
+        </html>
+    </xsl:template>    
+</xsl:stylesheet>

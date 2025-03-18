@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="empleados.xsl"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="./UT4-A1-v2-empleados_apply.xsl"?>
 <empleados>
     <empleado>
         <nombre>John Doe</nombre>
